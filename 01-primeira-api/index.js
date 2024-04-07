@@ -85,13 +85,3 @@ app.get('/exercicio12', (req, res) => {
 })
 
 
-
-
-
-
-
-// startando servidor(backend - api) para escutar comunicações
-// na porta 3000
-app.listen(3000, () => {
-    console.log("Api iniciando! Rodando em http://localhost:3000")
-})
