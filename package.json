@@ -1,16 +1,17 @@
 {
-  "name": "crud-simples",
-  "version": "1.0.0",
-  "main": "index.js",
+  "name": "dever",
+  "version": "0.1.0",
+  "private": true,
   "scripts": {
-    "start": "node index.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
   },
-  "author": "",
-  "license": "ISC",
   "dependencies": {
-    "express": "^4.19.2"
-  },
-  "devDependencies": {},
-  "description": ""
+    "formik": "^2.4.6",
+    "next": "14.2.16",
+    "react": "^18",
+    "react-dom": "^18"
+  }
 }
